@@ -1,3 +1,12 @@
+import Head from "next/head";
+
 export default function IndexPage() {
-  return <h1>alahuone.co</h1>;
+  return (
+    <>
+      <Head>
+        <title>alahuone.co</title>
+      </Head>
+      <h1>alahuone.co</h1>
+    </>
+  );
 }
