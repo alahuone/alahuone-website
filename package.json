@@ -1,0 +1,31 @@
+{
+  "name": "alahuone-website",
+  "version": "1.0.0",
+  "description": "Website for Club Alahuone https://alahuone.co",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "start": "next",
+    "build": "next build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alahuone/alahuone-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alahuone/alahuone-website/issues"
+  },
+  "homepage": "https://github.com/alahuone/alahuone-website#readme",
+  "dependencies": {
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.14",
+    "typescript": "^4.3.5"
+  }
+}
