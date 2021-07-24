@@ -1,3 +1,7 @@
+html {
+  font-size: 31.25%;
+}
+
 html,
 body {
   height: 100%;
@@ -6,23 +10,46 @@ body {
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 62.5%;
   min-height: 100%;
-  background: black;
+  background: #400;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 h1 {
-  margin: 0;
+  margin: 0 0 1rem;
   padding: 0;
-  font-size: 8rem;
+  font-size: 8.4rem;
   font-style: italic;
   text-shadow: -3rem 0px 0px red, -6rem 0px 0px darkred,
     -9rem 0px 0px mediumvioletred;
   color: black;
   text-align: center;
   text-indent: 6rem;
-  color: rgba(0, 0, 0, 0.75);
+  color: black;
+}
+
+h2 {
+  margin: 0 0 -2.8rem 0;
+  padding: 0;
+  font-size: 1.4rem;
+  text-align: right;
+  color: darkred;
+}
+
+.right {
+  text-align: right;
+}
+
+a {
+  font-size: 1.8rem;
+  color: mediumvioletred;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
 }
