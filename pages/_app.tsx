@@ -1,7 +1,8 @@
 import ReactGA from "react-ga";
+import { useEffect } from "react";
 import { useRouter } from "next/router";
 
-ReactGA.initialize("G-3BEQG6TMQ0");
+ReactGA.initialize("UA-203132889-1");
 
 import "../styles/styles.css";
 
@@ -13,6 +14,7 @@ export default function App({ Component, pageProps }) {
       ReactGA.pageview(url);
     };
     router.events.on("routeChangeComplete", handleRouteChange);
+    ReactGA.pageview(window?.location?.href);
     return () => {
       router.events.off("routeChangeComplete", handleRouteChange);
     };
