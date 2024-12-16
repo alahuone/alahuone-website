@@ -1,2 +1,2 @@
 # alahuone-website
-Website for Club Alahuone https://alahuone.co
+Website for Alahuone https://alahuone.co
